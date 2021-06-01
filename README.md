@@ -21,7 +21,7 @@ npm install
 npm link slpswap-node
 ```
 
->TODO: npm package for easy include
+[npm package](https://www.npmjs.com/package/slpswap-node) for easy include is also available.
 
 * Using in projects
 
