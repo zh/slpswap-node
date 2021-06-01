@@ -1,0 +1,52 @@
+{
+  "name": "slpswap-node",
+  "version": "0.1.0",
+  "description": "Swap SLP tokens (CLI version)",
+  "main": "lib/index.js",
+  "directories": {
+    "examples": "examples",
+    "lib": "lib"
+  },
+  "files": [
+    "dist/",
+    "lib/",
+    "examples/"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "prebuild": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh/slpswap-node.git"
+  },
+  "keywords": [
+    "bch",
+    "slp",
+    "swap",
+    "exchange",
+    "dex",
+    "postage protocol"
+  ],
+  "author": "Stoyan Zhekov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zh/slpswap-node/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bchaddrjs-slp": "^0.2.14",
+    "bignumber.js": "^9.0.1",
+    "bitcore-lib-cash": "^8.25.10",
+    "bitcore-payment-protocol": "github:vinarmani/bitcore-payment-protocol#new_version",
+    "buffer-reverse": "^1.0.1",
+    "grpc-bchrpc-node": "^0.15.2"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.2",
+    "eslint": "^7.26.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "yargs": "^17.0.1"
+  }
+}
