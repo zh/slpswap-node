@@ -1,6 +1,6 @@
 {
   "name": "slpswap-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Swap SLP tokens (CLI version)",
   "main": "lib/index.js",
   "directories": {
